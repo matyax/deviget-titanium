@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container" title="Not a hello world">
+		<View class="header">
+			<Label id="title" class="title" onClick="switchPage">Deviget Blog</Label>
+		</View>
+		<WebView id="webview" url="http://blog.deviget.com" />
+	</Window>
+</Alloy>
